@@ -1,5 +1,10 @@
 # MCP Defender
 
+[![PyPI version](https://badge.fury.io/py/mcp-defender.svg)](https://pypi.org/project/mcp-defender/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+mcp-name: io.github.trickyfalcon/mcp-defender
+
 An MCP (Model Context Protocol) server for Microsoft Defender Advanced Hunting. Enables AI assistants to investigate security events using natural language by translating queries to KQL and executing them against Defender.
 
 ## How It Works
@@ -29,9 +34,17 @@ AI interprets and explains the results
 
 ## Installation
 
+### From PyPI (Recommended)
+
+```bash
+pip install mcp-defender
+```
+
+### From Source
+
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/mcp-defender.git
+git clone https://github.com/trickyfalcon/mcp-defender.git
 cd mcp-defender
 
 # Create and activate virtual environment
