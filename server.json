@@ -1,12 +1,16 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.trickyfalcon/mcp-defender",
-  "description": "MCP server for Microsoft Defender Advanced Hunting. Execute KQL queries and investigate security events via natural language.",
+  "description": "Execute KQL queries against Microsoft Defender Advanced Hunting via natural language.",
   "version": "0.1.0",
   "packages": [
     {
-      "registry_type": "pypi",
-      "name": "mcp-defender"
+      "registryType": "pypi",
+      "identifier": "mcp-defender",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      }
     }
   ]
 }
