@@ -1,6 +1,6 @@
 [project]
-name = "mcp-defender"
-version = "0.1.0"
+name = "mcp-msdefenderkql"
+version = "1.0.0"
 description = "MCP server for Microsoft Defender Advanced Hunting - execute KQL queries via natural language"
 readme = "README.md"
 license = "MIT"
@@ -54,7 +54,7 @@ dev = [
 ]
 
 [project.scripts]
-mcp-defender = "mcp_defender.server:main"
+mcp-msdefenderkql = "mcp_defender.server:main"
 
 [build-system]
 requires = ["hatchling"]

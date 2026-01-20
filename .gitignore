@@ -8,6 +8,10 @@
 *.p12
 *.crt
 *.cer
+.mcpregistry_*
+
+# Project-specific excludes
+*.txt
 
 # Python
 __pycache__/
